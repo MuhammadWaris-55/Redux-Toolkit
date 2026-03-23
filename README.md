@@ -13,7 +13,7 @@ This project shows how to manage global state in a modern React app using Redux 
 - Manage todo data in global state
 - Use `useSelector` to read state
 - Use `useDispatch` to trigger actions
-- Simple and responsive UI with Tailwind CSS
+- Simple and responsive UI with Tailwind CSS.
 
 ---
 
