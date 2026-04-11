@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { removeTodo } from '../features/todo/todoSlice'
 
 function Todos() {
+    // Get todos from Redux store
     const todos = useSelector(state => state.todos)
     const dispatch = useDispatch() //Dispatch uses a reducer to change in store
 
