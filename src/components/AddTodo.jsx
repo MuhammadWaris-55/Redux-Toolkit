@@ -4,10 +4,11 @@ import { useDispatch } from 'react-redux'
 import { addTodo } from '../features/todo/todoSlice'
 
 const AddTodo = () => {
-
+    // Local state for the input field
     const [input, setInput] = useState('')
     const dispatch = useDispatch() //Dispatch uses a reducer to change in store
 
+    // Handle form submission: dispatch new todo and clear input
     const addTodoHandler = (e) => {
         e.preventDefault();
         dispatch(addTodo(input))
